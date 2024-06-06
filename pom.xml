@@ -85,6 +85,7 @@
             </buildpacks>
             <createdDate>now</createdDate>
             <env>
+              <BPL_SPRING_AOT_ENABLED>true</BPL_SPRING_AOT_ENABLED>
               <BP_JVM_CDS_ENABLED>true</BP_JVM_CDS_ENABLED>
             </env>
             <name>dashaun/${project.name}:v${project.version}-${os.detected.arch}</name>
